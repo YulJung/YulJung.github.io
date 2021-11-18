@@ -493,6 +493,16 @@ progress {
   font-weight: 300;
 }
 
+.signUpForm{
+  font-size: 1.25rem;
+  height: auto;
+  line-height: normal;
+  padding: .8em .5em;
+  border-radius: 25px;
+  text-align: center;
+  border: #0d6efd 1px solid;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
