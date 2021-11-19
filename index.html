@@ -136,13 +136,11 @@
                   check1.innerHTML = "비밀번호가 일치합니다.";
                   check1.style.color = "green";
                   pwcheck1.style.borderColor = "skyblue";
-                }
-                if (pw1.value == null) {
+                }else if (pw1.value == null) {
                   check1.innerHTML = "비밀번호를 먼저 입력해주세요.";
                   check1.style.color = "red";
 
-                }
-                else {
+                }else {
                   check1.innerHTML = "비밀번호가 일치하지 않습니다.";
                   check1.style.color = "red";
                   pwcheck1.style.borderColor = "red";
